@@ -197,7 +197,7 @@ const ConnectionForm = ({ isOpen, onClose }) => {
                 data-netlify="true"
                 method="post"
                 onSubmit={handleSubmit} // Додали обробник onSubmit
-                netlify
+                netlify="true"
               >
                 <input type="hidden" name="form-name" value="connection-form" />
                 <div>
